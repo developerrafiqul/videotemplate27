@@ -1,0 +1,108 @@
+
+.header{
+    background: #3498db;
+  
+  padding: 10px 0;
+  }
+
+
+
+@media(max-width:1520px){
+
+    .fixed-width{
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+      }
+}
+
+
+@media(max-width:1024px){
+    .header-right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-left{
+       
+        width: 100%;
+        text-align: center;
+      }
+      .header-right ul{
+        text-align: center;
+      
+      }
+}
+
+@media(max-width:768px){
+    .header-right ul li a {
+       
+        padding: 0px 18px;
+        line-height: 50px;
+        /* margin-left: 5px; */
+        border: none;
+    }
+    .banner {
+        
+        padding: 150px 0;
+        
+    }
+    .service{
+        margin-top: 20px;
+      }
+      .service-item{
+        
+        width: 100%;
+        padding: 25px 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .blog-left-content{
+        float: left;
+        width: 100%;
+      }
+      .blog-left-notification{
+        float: right;
+        width: 100%;
+      
+      }
+      .footer-left{
+       text-align: center;
+        width: 100%;
+        margin-bottom: 12px;
+      }
+      .footer-right{
+        
+        width: 100%;
+        text-align: center;
+        }
+        .social-menu {
+           
+          text-align: center;
+          }
+}
+
+@media(max-width:576px){
+
+    .banner {
+        
+        padding: 120px 0;
+        
+    }
+    .banner-caption h1{
+       
+        font-size: 33px;
+        padding: 5px o;
+        
+      }
+      .banner-caption h2{
+        
+        padding: 7px 20px;
+        font-size: 30px;
+        
+      }
+}
